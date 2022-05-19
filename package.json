@@ -1,14 +1,14 @@
 
 {
     "scripts": {
-        "frontI": "cd ./udagram-frontend && npm i && cd.. && cd ..",
-        "backI": "cd ./udagram/udagram-api && npm i && cd.. && cd ..",
-        "frontBuild": "cd ./udagram/udagram-frontend && npm run build && cd .. && cd ..",
-        "backBuild": "cd ./udagram/udagram-api && npm run build && cd .. && cd ..",
-        "frontTest": "cd ./udagram/udagram-frontend && npm run test && cd .. && cd ..",
-        "backTest": "cd ./udagram/udagram-api && npm run test && cd .. && cd ..",
-        "frontDeploy": "cd ./udagram/udagram-frontend && aws s3 cp --recursive --acl public-read ./www s3://udagram-project/ && cd .. && cd ..",
-        "backDeploy": "cd ./udagram/udagram-api &&  eb init udagram-api --platform node.js --region us-east-1 && eb deploy udagram-api-dev&& cd .. && cd .."
+        "frontI": "cd ./udagram-frontend && npm i && cd .. && cd ..",
+        "backI": "cd ./udagram-api && npm i && cd .. && cd ..",
+        "frontBuild": "cd ./udagram-frontend && npm run build && cd .. && cd ..",
+        "backBuild": "cd ./udagram-api && npm run build && cd .. && cd ..",
+        "frontTest": "cd ./udagram-frontend && npm run test && cd .. && cd ..",
+        "backTest": "cd ./udagram-api && npm run test && cd .. && cd ..",
+        "frontDeploy": "cd ./udagram-frontend && aws s3 cp --recursive --acl public-read ./www s3://udagram-project/ && cd .. && cd ..",
+        "backDeploy": "cd ./udagram-api &&  eb init udagram-api --platform node.js --region us-east-1 && eb deploy udagram-api-dev&& cd .. && cd .."
 
     },
     "devDependencies": {}
