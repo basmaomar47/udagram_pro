@@ -1,7 +1,7 @@
 
 {
     "scripts": {
-        "frontI": "cd ./udagram/udagram-frontend && npm i && cd.. && cd ..",
+        "frontI": "cd ./udagram-frontend && npm i && cd.. && cd ..",
         "backI": "cd ./udagram/udagram-api && npm i && cd.. && cd ..",
         "frontBuild": "cd ./udagram/udagram-frontend && npm run build && cd .. && cd ..",
         "backBuild": "cd ./udagram/udagram-api && npm run build && cd .. && cd ..",
