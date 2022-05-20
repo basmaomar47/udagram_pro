@@ -5,6 +5,7 @@
 3)	## Starting by orb which prepare it to the project in this case it will install node.js, then install aws cli, then elastic beanstalk
 
 4)	## Then will run the commands given to run the program 
+
                               1) ### First install the packages of the frontend&& backend 
                               2) ### Then will build the frontend&& backend parts
                               3) ### then will deploy the program
